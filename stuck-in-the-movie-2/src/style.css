@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.login-page {
+    background-color: #212121;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    height: 150vh;
+    background-color: #212121;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: left;
+    gap: 2rem;
+    pad: 0 1 rem;
+    width: 20%;
+    height: 200%;
+}
+
+.nav a {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav a:hover {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: yellow;
+}
+
+.set-center {
+    margin-left: 45%;
+}
+
+.set-title {
+    font-size: 2rem;
+}
+
+.set-gap {
+    margin: 5px;
+    width: 70px;
+    height: 70px;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav li:hover {
+
+    cursor: pointer;
+    background-color: #777;
+}
+
+.nav li.active {
+    background-color: #555;
+}
+
+.nav li {
+    list-style-type: none;
+}
+
+#title-navbar {
+    color: white;
+    font-size: 30px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    display: flex;
+    background-color: #212121;
+    width: 100%;
+    height: 100%;
+}
+
+.content-bottom-gapped {
+    display: flex;
+    background-color: #212121;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.main-content {
+    width: 100vw;
+    height: 100%;
+    margin: 2%;
+}
+
+.inactive {
+    color: red;
+}
+
+.size {
+    width: 16%;
+}
+
+.content-bawah {
+    display: flex;
+    flex-direction: column;
+}
+
+.white-color {
+    color: white;
+}
+
+.gray-color {
+    color: white
+}
+
+.form-adjust {
+    width: 100%;
+}
+
+.button-test {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.button-test:hover {
+    background-color: crimson;
+}
+
+.inactiveaaa {
+    color: red;
+}
+
+.activeaaa {
+    color: green;
+
+}
+
+img {
+    width: 50px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.disabled {
+    display: none;
+}
+
+.button-active {
+    background-color: green;
+}
+
+.pending {
+    color: yellow;
+}
+
+.hide {
+    display: none;
+}
+
+.bottom-gap {
+    margin-bottom: 10px;
+}
+
+.width-custom {
+    width: 150px;
+}
+
+.text-adjust {
+    width: 150px;
+}
